@@ -15,4 +15,13 @@ bob.width(1)
 
 for number in range(80):
   bob.forward(number * 4)
-  bob.left(121)
+  bob.left(120)
+
+bob.penup()
+bob.goto(0,-200)
+bob.pendown()
+bob.width(1)
+
+for number in range(80):
+  bob.forward(number * 4)
+  bob.left(91)
