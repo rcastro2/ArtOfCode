@@ -1,13 +1,12 @@
 import turtle
 
 bob = turtle.Turtle()
-
-angle = 120
 distance = 100
 
 bob.forward(distance)
-bob.left(angle)
+bob.left(120)
 bob.forward(distance)
-bob.left(angle)
+bob.left(120)
 bob.forward(distance)
-bob.left(angle)
+bob.left(120)
+
